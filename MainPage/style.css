@@ -1,0 +1,216 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Shantell Sans", serif;
+  font-weight: 800;
+}
+.all{
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: url("../images/background1.png") center no-repeat; /* Pravilno pozicioniranje */
+  background-size: 100% auto;  
+  overflow: hidden;
+}
+.dog{
+  position: absolute;
+  top:-57px;
+  transform: scale(1.56);
+  left: -40px;
+  transform: scale(0.78);
+}
+.cat{
+  position: absolute;
+  top:-125px;
+  left: -64px;
+  transform: scale(0.67);
+}
+.dog-div{
+  top: -15vh;
+  left: 7%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transform: scale(1.1);
+  z-index: 10;
+}
+.cat-div{
+  top: -25vh;
+  left: 65vw;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transform: scale(1.1);
+  z-index: 10;
+}
+.all h1{
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 36px;
+  transform: scale(1.2,1.6);
+  font-weight: 800;
+}
+
+
+.blob2{
+transform: scale(1.5);
+}
+
+.btn{
+
+    width: 200px;
+    height: 48px;
+    font-size: 26px;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #3796B4;
+  
+    /* Postavljanje border-a */
+    border: 3px solid black; /* Osnovni border */
+    border-bottom-width: 6px; /* Dodatna debljina samo na dnu */
+  
+  
+}
+
+.second{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.second h2{
+  margin-left: 10%;
+  font-size: 32px;
+  padding-top: 5vh;
+}
+
+.box{
+  width: 35%;
+  height: 240px;
+  border: 3px solid black;
+  border-radius: 20px;
+  display: flex;
+  cursor: pointer;
+}
+.line{
+  margin-top: 20vh;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.box .left{
+  border-right: 3px solid black;
+  width: 67%;
+  height: 100%;
+  text-align: center;
+}
+
+.left h1{
+  padding-top: 80px;
+  font-size: 22px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 35px;
+}
+
+.doggy{
+  position: absolute;
+  transform: scale(0.9);
+  top: -65px;
+  left: -120px;
+}
+
+.right{
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  padding-top: 40px;
+  position: relative;
+}
+.right h1{
+  font-size: 44px;
+  color: #fff;
+  z-index: 10;
+  margin-top: 10px;
+  position: relative;
+}
+
+.right h3{
+font-size: 16px;
+margin-top: 10px;
+}
+
+.paw{
+  width: 100%;
+  position: absolute;
+  top: 35px;
+  left: 2px;
+}
+
+.left:nth-child(1){
+  width: 33%;
+}
+.right:nth-child(1){
+  width: 67%;
+}
+
+.catty{
+  position: absolute;
+  transform: scale(0.75);
+  top: -340px;
+  left: 90px;
+}
+
+.right:nth-child(2) h1{
+  color: black;
+  font-size: 22px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 35px;
+margin-top: -30px;
+}
+.left2{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#paw{
+  width: 100%;
+  position: absolute;
+  top: 35px;
+  left: -2px;
+}
+
+.left2 h1{
+  font-size: 44px;
+  color: #fff;
+  z-index: 10;
+  margin-top: -25px;
+  position: relative;
+}
+
+.left2 h3{
+  margin-top: 15px;
+  font-size: 16px;
+
+}
+
+.second svg{
+  padding-top: -15vh;
+}
