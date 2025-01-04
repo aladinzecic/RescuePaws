@@ -10,361 +10,455 @@
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="cards-div">
-        <div class="card">
-            <div class="img-div">
-                <img src="../images/dog.png" alt="">
+    <div class="fullPage">
+        <div class="sidebar">
+            <h1>Filter</h1>
+            <div class="section">
+                <h3>Pet type?</h3>
+                <label>
+                    <input type="radio" name="petType" value="Dog">
+                    <span class="custom-radio"></span> 
+                    <span class="text">Dog</span>
+                </label>
+                <br>
+                <label class="second">
+                    <input type="radio" name="petType" value="Cat">
+                    <span class="custom-radio"></span> 
+                    <span class="text">Cat</span>
+                  </label>
+                  
+                  
+                  
             </div>
-            <div class="down">
-                <div class="circle">
-                    <img src="../images/heart.png" alt="" srcset="">
-                </div>
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
+            <div class="section margin">
+                <h3>Gender?</h3>
+                <label>
+                    <input type="radio" name="petType" value="Dog">
+                    <span class="custom-radio"></span> 
+                    <span class="text">Male</span>
+                </label>
+                <br>
+                <label class="second">
+                    <input type="radio" name="petType" value="Cat">
+                    <span class="custom-radio"></span> 
+                    <span class="text">Female</span>
+                  </label>
+                  
+                  
+                  
             </div>
+            <div class="section margin">
+                <h3>Vaccinated?</h3>
+                <label>
+                    <input type="radio" name="petType" value="Dog">
+                    <span class="custom-radio"></span> 
+                    <span class="text">Yes</span>
+                </label>
+                <br>
+                <label class="second">
+                    <input type="radio" name="petType" value="Cat">
+                    <span class="custom-radio"></span> 
+                    <span class="text">No</span>
+                  </label>
+                  
+                  
+                  
+            </div>
+            <div class="section margin">
+                <h3>Distance in km?</h3>
+                <input type="range" id="myRange" name="range" min="0" max="100" value="50" step="1">
+ 
+                  
+                  
+                  
+            </div>
+            <div class="section margin">
+                <h3>Age?</h3>
+                <label>
+                    <input type="radio" name="petType" value="Dog">
+                    <span class="custom-radio"></span> 
+                    <span class="text">Baby</span>
+                </label>
+                <br>
+                <label class="second">
+                    <input type="radio" name="petType" value="Cat">
+                    <span class="custom-radio"></span> 
+                    <span class="text">Adult</span>
+                  </label>
+                <label style="margin-top: 3px;">
+                    <input type="radio" name="petType" value="Cat">
+                    <span class="custom-radio"></span> 
+                    <span class="text">Senior</span>
+                  </label>
+                  
+                  
+                  
+            </div>
+            <button class="apply">Apply</button>
+        </div>
+        <div class="cards-div">
+            <div class="card">
+                <div class="img-div">
+                    <img src="../images/dog.png" alt="">
+                </div>
+                <div class="down">
+                    <div class="circle">
+                        <img src="../images/heart.png" alt="" srcset="">
+                    </div>
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="badge" src="../images/quality.png" alt="">
+                <div class="img-div">
+                    <img src="https://png.pngtree.com/png-clipart/20230511/ourmid/pngtree-isolated-cat-on-white-background-png-image_7094927.png" alt="">
+                </div>
+                <div class="down">
+                    <div class="circle">
+                        <img src="../images/redHeart.png" alt="" srcset="">
+                    </div>
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-div">
+                    <img src="https://i.pinimg.com/originals/69/9b/d9/699bd95d7f49be16480bfaca54b38902.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-div">
+                    <img src="https://pngimg.com/d/dog_PNG50361.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="badge" src="../images/quality.png" alt="">
+    
+                <div class="img-div">
+                    <img src="../images/dog.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-div">
+                    <img src="https://i.pinimg.com/originals/69/9b/d9/699bd95d7f49be16480bfaca54b38902.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-div">
+                    <img src="https://pngimg.com/d/dog_PNG50361.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-div">
+                    <img src="../images/dog.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-div">
+                    <img src="https://i.pinimg.com/originals/69/9b/d9/699bd95d7f49be16480bfaca54b38902.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-div">
+                    <img src="https://pngimg.com/d/dog_PNG50361.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-div">
+                    <img src="../images/dog.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="badge" src="../images/quality.png" alt="">
+    
+                <div class="img-div">
+                    <img src="https://i.pinimg.com/originals/69/9b/d9/699bd95d7f49be16480bfaca54b38902.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-div">
+                    <img src="https://pngimg.com/d/dog_PNG50361.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-div">
+                    <img src="../images/dog.png" alt="">
+                </div>
+                <div class="down">
+                    <h3>Gracie</h3>
+                <h5>Golden retriver</h5>
+                <div class="stats-div">
+                    <div class="left">
+                        <img class="gender" src="../images/male.png" alt="" srcset="">
+                        <h6>Male</h6>
+                    </div>
+                    <div class="right">
+                        <img class="clock" src="../images/clock (1).png" alt="" srcset="">
+                        <h6>
+                            7 Months
+        
+                        </h6>
+                    </div>
+        
+                </div>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="https://png.pngtree.com/png-clipart/20230511/ourmid/pngtree-isolated-cat-on-white-background-png-image_7094927.png" alt="">
-            </div>
-            <div class="down">
-                <div class="circle">
-                    <img src="../images/redHeart.png" alt="" srcset="">
-                </div>
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
+        <div class="svg-div">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#b9dbe6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#7dbccf;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                
+                <path fill="url(#grad1)" d="M35,-58.4C41.6,-50.3,40.5,-34.1,44.2,-21.5C48,-8.9,56.5,0.3,56.2,8.6C55.9,17,46.6,24.7,38.9,33.9C31.2,43.1,25.1,53.8,18.1,51.1C11,48.4,3.1,32.3,-2.9,24C-8.8,15.8,-12.9,15.2,-22.5,14C-32.1,12.8,-47.3,10.9,-51.1,5.4C-54.8,0,-47.1,-9,-43.4,-21C-39.7,-32.9,-40,-47.8,-33.4,-55.9C-26.8,-63.9,-13.4,-65.2,0.4,-65.9C14.2,-66.5,28.5,-66.5,35,-58.4Z" transform="translate(100 100)" style="opacity: 0.6; filter: blur(10px);" />
+              </svg>
         </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="https://i.pinimg.com/736x/69/9b/d9/699bd95d7f49be16480bfaca54b38902.jpg" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
+        <div class="svg-div1">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#b9dbe6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#7dbccf;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                
+                <path fill="url(#grad1)" d="M27.7,-48.8C36.7,-37.3,45.2,-30.9,55.8,-21.5C66.4,-12,78.9,0.6,76.2,10.1C73.5,19.6,55.5,26.1,42,29.9C28.6,33.7,19.6,34.9,12.2,33.2C4.9,31.5,-0.8,26.9,-9.8,27.1C-18.8,27.4,-31.1,32.5,-45.1,30.9C-59.1,29.4,-74.9,21.2,-75.9,11.2C-76.9,1.2,-63.1,-10.7,-50.5,-16.7C-37.8,-22.8,-26.4,-23,-18.2,-34.9C-10,-46.7,-5,-70.2,2.2,-73.6C9.4,-77,18.7,-60.3,27.7,-48.8Z" transform="translate(100 100)" style="opacity: 0.6; filter: blur(10px);" />
+              </svg>
+              
         </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="https://pngimg.com/d/dog_PNG50361.png" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="../images/dog.png" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="https://i.pinimg.com/736x/69/9b/d9/699bd95d7f49be16480bfaca54b38902.jpg" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="https://pngimg.com/d/dog_PNG50361.png" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="../images/dog.png" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="https://i.pinimg.com/736x/69/9b/d9/699bd95d7f49be16480bfaca54b38902.jpg" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="https://pngimg.com/d/dog_PNG50361.png" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="../images/dog.png" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="https://i.pinimg.com/736x/69/9b/d9/699bd95d7f49be16480bfaca54b38902.jpg" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="https://pngimg.com/d/dog_PNG50361.png" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-div">
-                <img src="../images/dog.png" alt="">
-            </div>
-            <div class="down">
-                <h3>Gracie</h3>
-            <h5>Golden retriver</h5>
-            <div class="stats-div">
-                <div class="left">
-                    <img class="gender" src="../images/male.png" alt="" srcset="">
-                    <h6>Male</h6>
-                </div>
-                <div class="right">
-                    <img class="clock" src="../images/clock (1).png" alt="" srcset="">
-                    <h6>
-                        7 Months
-    
-                    </h6>
-                </div>
-    
-            </div>
-            </div>
-        </div>
+
     </div>
-    <div class="svg-div">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" style="stop-color:#b9dbe6;stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#7dbccf;stop-opacity:1" />
-              </linearGradient>
-            </defs>
-            
-            <path fill="url(#grad1)" d="M35,-58.4C41.6,-50.3,40.5,-34.1,44.2,-21.5C48,-8.9,56.5,0.3,56.2,8.6C55.9,17,46.6,24.7,38.9,33.9C31.2,43.1,25.1,53.8,18.1,51.1C11,48.4,3.1,32.3,-2.9,24C-8.8,15.8,-12.9,15.2,-22.5,14C-32.1,12.8,-47.3,10.9,-51.1,5.4C-54.8,0,-47.1,-9,-43.4,-21C-39.7,-32.9,-40,-47.8,-33.4,-55.9C-26.8,-63.9,-13.4,-65.2,0.4,-65.9C14.2,-66.5,28.5,-66.5,35,-58.4Z" transform="translate(100 100)" style="opacity: 0.6; filter: blur(10px);" />
-          </svg>
-    </div>
-    <div class="svg-div1">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" style="stop-color:#b9dbe6;stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#7dbccf;stop-opacity:1" />
-              </linearGradient>
-            </defs>
-            
-            <path fill="url(#grad1)" d="M27.7,-48.8C36.7,-37.3,45.2,-30.9,55.8,-21.5C66.4,-12,78.9,0.6,76.2,10.1C73.5,19.6,55.5,26.1,42,29.9C28.6,33.7,19.6,34.9,12.2,33.2C4.9,31.5,-0.8,26.9,-9.8,27.1C-18.8,27.4,-31.1,32.5,-45.1,30.9C-59.1,29.4,-74.9,21.2,-75.9,11.2C-76.9,1.2,-63.1,-10.7,-50.5,-16.7C-37.8,-22.8,-26.4,-23,-18.2,-34.9C-10,-46.7,-5,-70.2,2.2,-73.6C9.4,-77,18.7,-60.3,27.7,-48.8Z" transform="translate(100 100)" style="opacity: 0.6; filter: blur(10px);" />
-          </svg>
-          
-    </div>
+    
       
       
 </body>
