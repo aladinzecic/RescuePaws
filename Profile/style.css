@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", serif;
+}
+
+.all{
+    background-color: #FBF9F5;
+
+}
+
+.profile{
+    padding-top: 5vh;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    height: 45vh;
+}
+.desc{
+display: flex;
+flex-direction: column;
+height: 100%;
+width: 50%;
+}
+
+.line{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.line img{
+    height: 30%;
+}
+.line h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.profile-img{
+    height: 75%;
+    text-align: center;
+    margin-left: 5%;
+    width: 50%;
+}
+.profile-img img{
+    height: 100%;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.card{
+    position: relative;
+    width: 70%;
+    height: 25vh;
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 2px solid rgb(87, 85, 85);
+    padding-left: 3%;
+    cursor: pointer;
+}
+
+.card-img{
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+.card-img img{
+    width: 100%;
+}
+
+.card-second{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+}
+
+.up, .down{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+.up{
+    align-items: end;
+}
+
+.up h2{
+    font-size: 28px;
+}
+.down h3{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(87, 85, 85);
+}
+
+.icon{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+}
+.icon h4{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.icon img{
+    height: 60%;
+}
+.heart{
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+
