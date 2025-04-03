@@ -7,42 +7,60 @@
 
 .all{
     background-color: #FBF9F5;
+    display: flex;
+}
 
+.left{
+    width: 50%;
+    border-right: 1px solid blue;
+}
+
+.stat{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3vh;
+}
+
+
+.stat img{
+    width: 30px;
+    height: 30px;
+}
+
+.left h1{
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: -1px;
+    margin-top: 10px;
+}
+.stat h2{
+    margin-left: 2%;
+    font-size: 17px;
+    font-weight: 500;
+}
+.right{
+    width: 50%;
 }
 
 .profile{
-    padding-top: 5vh;
+    margin-top: 3vh;
     display: flex;
     width: 80%;
     margin-left: 10%;
-    height: 45vh;
-}
-.desc{
-display: flex;
-flex-direction: column;
-height: 100%;
-width: 50%;
+    height: 30vh;
+    border-radius: 20px;
+    background-color: #E5E5E5;
+    color: #fff;
 }
 
-.line{
-    height: 33%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-.line img{
-    height: 30%;
-}
-.line h2{
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 10px;
-}
 .profile-img{
-    height: 75%;
+    height: 25vh;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 25%;
     width: 50%;
+    margin-top: 5vh;
 }
 .profile-img img{
     height: 100%;
@@ -51,6 +69,24 @@ width: 50%;
     display: flex;
     flex-direction: column;
     align-items:center;
+}
+#email{
+    width: 28px;
+    height: 28px;
+}
+#half{
+    height:25px;
+    width: 24px;
+    margin-top: 1px;
+}
+#rev{
+    margin-left: 0%;
+    font-size: 16px;
+}
+.stat h3{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
 }
 .card{
     position: relative;
@@ -70,6 +106,15 @@ width: 50%;
 }
 .card-img img{
     width: 100%;
+}
+#star{
+    height:20px;
+    width: 20px;
+}
+#start{
+    margin-left: 20px;
+    height:20px;
+    width: 20px;
 }
 
 .card-second{
