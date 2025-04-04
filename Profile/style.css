@@ -12,7 +12,11 @@
 
 .left{
     width: 50%;
+    height: 100vh;
     border-right: 1px solid blue;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .stat{
@@ -42,6 +46,7 @@
 }
 .right{
     width: 50%;
+    margin-left: 50%;
 }
 
 .profile{
@@ -91,7 +96,7 @@
 .card{
     position: relative;
     width: 70%;
-    height: 25vh;
+    height: 20vh;
     margin-top: 20px;
     display: flex;
     border-bottom: 2px solid rgb(87, 85, 85);
@@ -99,14 +104,20 @@
     cursor: pointer;
 }
 
-.card-img{
-    width: 25%;
-    height: 100%;
-    display: flex;
+.card-img {
+    width: 30%;
+    max-height: 300px; /* Ograniči visinu kontejnera */
+    overflow: hidden;  /* Sakrij višak ako slika prelazi */
 }
-.card-img img{
+
+.card-img img {
     width: 100%;
+    height: auto;
+    object-fit: cover; /* Ako želiš da preseče višak slike */
+    display: block;
+
 }
+
 #star{
     height:20px;
     width: 20px;
@@ -120,7 +131,8 @@
 .card-second{
     display: flex;
     flex-direction: column;
-    margin-left: 8%;
+    margin-left: 3%;
+    width: 35%;
 }
 
 .up, .down{
@@ -136,11 +148,11 @@
 }
 
 .up h2{
-    font-size: 28px;
+    font-size: 22px;
 }
 .down h3{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 17px;
     color: rgb(87, 85, 85);
 }
 
@@ -151,7 +163,7 @@
     align-items: center;
 }
 .icon h4{
-    margin-left: 10px;
+    font-size: 12px;
     font-weight: 600;
 }
 .icon img{
@@ -160,6 +172,12 @@
 .heart{
     display: flex;
     align-items: center;
-    margin-left: 15%;
+    margin-left: 5%;
+    transform: scale(0.9);
 }
 
+.right h1{
+    margin-left: 15%;
+    margin-top: 3vh;
+    font-weight: 600;
+}
