@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", serif;
+}
+
+.full-page{
+    background-color: #ECE9E9;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    width: 50%;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #222222;
+    outline: 0;
+    font-size: 1.2rem;
+    color: #222222;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  
+    &::placeholder {
+      color: transparent;
+    }
+  
+    &:placeholder-shown ~ .form__label {
+      font-size: 1.2rem;
+      cursor: text;
+      top: 20px;
+    }
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #222222;
+  }
+
+  .inputs{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  textarea{
+    height: 200px;
+    resize: none;
+
+  }
+
+  input[type="radio"] {
+    display: none; /* Sakrivamo originalno radio dugme */
+  }
+  
+  /* Stilizovanje prilagođenog radio dugmeta */
+  .custom-radio {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #222222;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Selektovano radio dugme */
+  input[type="radio"]:checked + .custom-radio {
+    background-color: #222222;
+  }
+  
+  /* Uklanjamo sadržaj u ::before */
+  input[type="radio"]:checked + .custom-radio::before {
+    content: ""; /* Prazno, bez ikakvog teksta */
+    display: block;
+  }
+
+  .radio{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .radio h2{
+      font-size: 1.2rem;
+      color: #222222;
+    font-weight: 400;
+}
+.text{
+    position: relative;
+    top: -4px;
+}
+.radios{
+    margin-top: 5px;
+}
+.radios label:nth-child(2){
+    margin-left: 20px;
+}
+
+
+.upload-container {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #666;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    position: relative;
+  }
+  
+  .upload-container:hover {
+    background-color: #222222;
+    border-color: #444;
+  }
+  
+  .upload-container input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .upload-container.dragover {
+    background-color: #222222;
+  }
+  
+  .upload-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-top: 5px solid #222222;
+    border-left: 5px solid #222222;
+  }
+  
+  /* Donji desni ugao */
+  .upload-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-bottom: 5px solid #222222;
+    border-right: 5px solid #222222;
+  }
+
+  .images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+  }
+
+  .uploaded-images{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .img{
+    width: 13vh;
+    background-color: #222222;
+    height: 13vh;
+  }
